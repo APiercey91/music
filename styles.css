@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Light grey background */
+    color: #333;
+    /* Dark grey text */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    background-image: url('../images/headerimg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgrey;
+    /* Dark grey text */
+    font-size: 70px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#current {
+    margin-top: 20px;
+}
+
+#current h2 {
+    color: lightgrey;
+    /* Grey text for the announcement */
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 40px;
+    /* Adjust font size as needed */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Center the list items horizontally */
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgrey;
+    /* Dark grey link text */
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+#about {
+    background-color: #d2b48c;
+    /* Beige background for the about section */
+    padding: 20px;
+}
+
+#about h2 {
+    color: #333;
+    /* Dark grey text */
+}
+
+#about p {
+    color: #666;
+    /* Grey text for the description */
+}
+
+/* Footer styles */
+footer {
+    background-color: #d2b48c;
+    /* Beige background for the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: #333;
+    /* Dark grey text */
+}
+
+footer a {
+    text-decoration: none;
+    color: #666;
+    /* Grey link text */
+}
